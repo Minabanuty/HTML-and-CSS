@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --primary-color:#f5af00;
+    --secondary-color:#999;
+    
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"poppins" ;
+
+}
+#Header{
+   background: linear-gradient(rgba(26, 25, 25, 0.3),rgba(20, 20, 20, 0.3)),url(imgs/1.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+.Header {
+    display: flex;
+    justify-content: space-between;
+   padding:30px;
+   width: 100%;
+  position: fixed;
+  z-index: 100;
+ 
+
+    
+    
+}
+.Header .navbar ul{
+display: flex;
+flex-direction: row;
+}
+.Header .navbar ul li{
+    list-style: none;
+    margin-right: 10px;
+}
+.Header .navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    font-size: .8rem;
+}
+.Header .navbar  span{
+    display: none;
+}
+.Header .navbar ul li a:hover {
+   color: #f5af00;
+   transition: ease 30ms;
+   -webkit-transition: ease 500ms;
+   -moz-transition: ease 30ms;
+   -ms-transition: ease 30ms;
+   -o-transition: ease 30ms;
+}
+
+.overlay {
+    text-align: center;
+    padding-top:150px;
+    line-height: 30px;
+    color: white;
+}
+.overlay h1{
+    font-size: 4rem;
+}
+.overlay p{
+    font-size: 1.2rem;
+}
+.overlay button{
+    background-color: #f5af00;
+    color: white;
+    text-transform: uppercase;
+    line-height: 30px;
+    border-radius: 50px;
+    margin-top: 30px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    box-shadow: 10px 10px 50px 0xp black;
+    width: 170px;
+    height: 50px;
+}
+.overlay button:hover{
+    background-color: #333;
+}
+/*************************Services**********/
+#Services{
+    margin: 50px ;
+    background-color: white;
+    line-height: 30px;
+}
+#Services h1,p {
+    text-align: center;
+
+}
+#Services h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+#Services p {
+    font-size: .8rem;
+    text-transform: capitalize;
+    color: #999;
+    margin: 0px 0px 20px;
+}
+#Services .card i {
+    color: #f5af00;
+   
+}
+#Services .card {
+    margin-top:50px;
+    border: none;
+}
+#Services .card {
+    margin-top:50px;
+    border: none;
+}
+#Services .card .card-title {
+    font-size: 20px;
+}
+#Services .card .card-body{
+    font-size: 14px;
+}
+/*********************Featured WOrk**************/
+#Featured-work{
+background-color: #f1eeee;
+line-height: 25px;
+padding: 100px ;
+}
+#Featured-work ul li{
+list-style: none;
+}
+#Featured-work ul li a {
+    color: #999;
+    text-decoration: none;
+    font-family: 'lore';
+    text-transform: capitalize;
+}
+#Featured-work ul li a:hover{
+    color: #f5af00;
+}
+/******************gallory********/
+#Gallory {
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #f1eeee;
+    cursor: pointer;
+}
+#Gallory .row {
+    display: flex;
+    justify-content: center;
+}
+
+#Gallory .card-img-overlay {
+    background-color: #f5af00; 
+    opacity: 0.8;
+    display: none;
+    z-index: -1;  /* Changed from -100 to 1 */
+}
+
+#Gallory .card:hover{
+    display: block;
+}
+#imageModal .left {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+}
+#imageModal .right {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+}
+/*********************Skills *********************/
+#skills{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding:100px 30px;
+    line-height: 20px;
+    color: #999;
+}
+#skills .left{
+line-height:30px;
+}
+#skills .left h3 {
+    font-size: 34px;
+    line-height:50px;
+    padding-bottom: 30px;
+    color: black;
+    padding-left: 20px;
+    font-weight: 400;
+}
+#skills .right{
+    padding-left: 100px;
+    padding-right: 0;
+}
+#skills .right .proheader{
+    display: flex;
+    justify-content: space-between;
+color: black;
+}
+#skills .right {
+    line-height: 20px;
+}
+#skills .right .probar {
+    padding-bottom: 30px;
+}
+/***************divder**********/
+.divder {
+    background-color: #f5af00;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 20px;
+}
+.divder button {
+  align-self: flex-end;
+  width: 200px;
+  height: 50px;
+  border-radius:50px ;
+  -webkit-border-radius:50px ;
+  -moz-border-radius:50px ;
+  -ms-border-radius:50px ;
+  -o-border-radius:50px ;
+  line-height: 20px;
+  margin-right: 50px;
+  background-color: #f5af00;
+  border: 1px solid white;
+  color: white;
+}
+/*****************ourclient*************/
+#ourclient{
+    margin-top: 150px;
+    padding: 50px;
+    background-color: #f1eeee;
+}
+#ourclient .left{
+    display: flex;
+    color: #999;
+    justify-content: center;
+    align-items: center;
+}
+#ourclient .left img {
+    width: 70px;
+    height: 70px;
+}
+#ourclient .left p {
+    padding-left: 20px;
+    padding-top: 50px;
+}
+#ourclient .left strong {
+  position: relative;
+  top: 100px;
+  left: -300px;
+  margin-top: 10px;
+  white-space: nowrap;
+  color: black;
+  
+}
+/***************footer***********/
+#footer{
+    padding:50px;
+    padding-top: 100px;
+    line-height: 25px;
+}
+#footer .col-first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#footer .col-first i {
+  padding-bottom: 40px;
+  color: #f5af00;
+}
+/********************copyright************/
+#copyright .copy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    color: #999;
+    font-size:.9rem;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    *{
+padding: 0;
+margin: 0;
+    }
+    .Header{
+        width: 100%;
+        padding: 30px 10px;
+        margin: 0;
+        line-height: 20px;
+    }
+    #Header{
+        background: linear-gradient(rgba(26, 25, 25, 0.3),rgba(20, 20, 20, 0.3)),url(imgs/1.jpg);
+         
+         background-size: cover;
+         background-position: center;
+         background-size: cover;
+         height: 80vh;
+     }
+    .Header .navbar ul li{
+        display:none;
+    
+    }
+
+    .Header .navbar  span {
+        display: inline;
+        color: #f5af00;
+        border: .5px solid #f5af00;
+        padding: 10px;;
+        width: 40px;
+        
+    }
+    #Header .overlay h1{
+        font-size: 35px;
+    }
+    #Header .overlay p{
+        font-size: 14px;
+    }
+    #Header .overlay button{
+        font-size: 12px;
+    }
+    /**************Gallory**********/
+    #Gallory{
+        padding: 10px;
+    }
+    #Gallory img {
+        width: 100%;
+    }
+}

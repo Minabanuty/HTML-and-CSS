@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="Header">
+        <div class="Header">
+            <div class="logo" id="dark-logo">
+                <img src="imgs/logo-light.png">
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">MAP</a></li>
+                </ul>
+                <span><i class="fa fa-bars fa-xl" id="toggle" onclick="onClick();"></i></span>
+            </nav>
+
+        </div>
+        <div class="overlay">
+            <h1>We Are Buliding your Future</h1>
+            <p>take a step towards the future of construction with cobuild</p>
+            <button class="btn">Get a Quote</button>
+        </div>
+    </div>
+    <!-----------------Our Services Sction ---------->
+    <div id="Services">
+        <h1>Our Services</h1>
+        <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris morbi<br> accumsan ipsum velit. Nam nec tellus
+            a
+            odio tincidunt auctor a ornare odio.</p>
+        <div class="row">
+            <div class="col-lg-3 col-sm-12">
+                <div class="card">
+                    <i class=" fa fa-tractor fa-3x text-center"></i>
+                    <div class="card-title text-center">Fast operations</div>
+                    <div class="card-body text-center">Cobuild impresses you with fully responsiveness and highly
+                        customization
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="card">
+                    <i class=" fa fa-tractor fa-3x text-center"></i>
+                    <div class="card-title text-center">Fast operations</div>
+                    <div class="card-body text-center">Cobuild impresses you with fully responsiveness and highly
+                        customization
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="card">
+                    <i class=" fa fa-tractor fa-3x text-center"></i>
+                    <div class="card-title text-center">Fast operations</div>
+                    <div class="card-body text-center">Cobuild impresses you with fully responsiveness and highly
+                        customization
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="card">
+                    <i class=" fa fa-tractor fa-3x text-center"></i>
+                    <div class="card-title text-center">Fast operations</div>
+                    <div class="card-body text-center">Cobuild impresses you with fully responsiveness and highly
+                        customization
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Featured-work">
+        <h2 class="text-center">Featured Work</h2>
+        <p class="text-center">Duis aute irure dolor in reprehenderit volupte velit esse<br> cillum fugiat pariature
+            occaecat cupidatat proident culpa.</p>
+        <ul class="d-flex justify-content-around mt-5">
+            <li>
+                <a href="#" class="all">All</a>
+            </li>
+            <li>
+                <div class="Slash">/</div>
+            </li>
+            <li>
+                <a href="#" class="Bulding">Buliding</a>
+            </li>
+            <li>
+                <div class="Slash">/</div>
+            </li>
+            <li>
+                <a href="#" class="Construction">Constraction</a>
+            </li>
+            <li>
+                <div class="Slash">/</div>
+            </li>
+            <li>
+                <a href="#" class="Plnning">Planning</a>
+            </li>
+        </ul>
+    </div>
+    <div id="Gallory">
+        <div class="row">
+            <div class="col-lg-3 col-sm-1">
+                <div class="card text-white my-5">
+                    <img src="imgs/2.jpg" class="card-img">
+                    <div class="card-img-overlay d-flex flex-column text-center justify-content-center pt-5">
+                        <i class="fa fa-plus"></i>
+                        <h5 class="card-title pt-lg-5">Tower Buliding</h5>
+                    </div>
+                </div>
+                <div class="card text-white my-5">
+                    <img src="imgs/3.jpg" class="card-img">
+                    <div class="card-img-overlay d-flex flex-column text-center justify-content-center pt-5">
+                        <i class="fa fa-plus"></i>
+                        <h5 class="card-title pt-lg-5">Tower Buliding</h5>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-sm-1">
+                <div class="card text-white my-5">
+                    <img src="imgs/4.jpg" class="card-img">
+                    <div class="card-img-overlay d-flex flex-column text-center justify-content-center pt-5">
+                        <i class="fa fa-plus"></i>
+                        <h5 class="card-title pt-lg-5">Tower Buliding</h5>
+                    </div>
+                </div>
+                <div class="card text-white my-5">
+                    <img src="imgs/2.jpg" class="card-img">
+                    <div class="card-img-overlay d-flex flex-column text-center justify-content-center pt-5">
+                        <i class="fa fa-plus"></i>
+                        <h5 class="card-title pt-lg-5">Tower Buliding</h5>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-sm-1">
+                <div class="card text-white my-5">
+                    <img src="imgs/3.jpg" class="card-img">
+                    <div class="card-img-overlay d-flex flex-column text-center justify-content-center pt-5">
+                        <i class="fa fa-plus"></i>
+                        <h5 class="card-title pt-lg-5">Tower Buliding</h5>
+                    </div>
+                </div>
+                <div class="card text-white my-5">
+                    <img src="imgs/4.jpg" class="card-img">
+                    <div class="card-img-overlay d-flex flex-column text-center justify-content-center pt-5">
+                        <i class="fa fa-plus"></i>
+                        <h5 class="card-title pt-lg-5">Tower Buliding</h5>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <div id="imageModal"
+        style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); z-index:1000;">
+        <img id="modalImage" src=""
+            style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); max-width:90%; max-height:90%;">
+    </div>
+    <!------------------------skills sction------>
+    <div id="skills">
+        <div class="row d-flex">
+            <div class="col-lg-6 left">
+                <h3>We are expert in this field since almost 20 years</h3>
+                <p>Proin gravida nibh vel velit auctor aliquet aenean sollicitudin, lorem quis bibendum auctor, nisi
+                    elit cuat ipsum, nec sagittis sem nibh id elit duis sed odio sit nibh vulputate cursus a sit amet
+                    mauris morbi accumsan.</p>
+
+            </div>
+            <div class="col-lg-6 right">
+                <div class="probar">
+                    <div class="proheader">
+                        <h6>buliding</h6>
+                        <h6>86%</h6>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                        <div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div>
+                    </div>
+                </div>
+                <div class="probar">
+                    <div class="proheader">
+                        <h6>buliding</h6>
+                        <h6>86%</h6>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="86"
+                        aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                        <div class="progress-bar bg-warning text-dark" style="width: 86%">86%</div>
+                    </div>
+                </div>
+                <div class="probar">
+                    <div class="proheader">
+                        <h6>buliding</h6>
+                        <h6>86%</h6>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100" style="height: 10px" ;>
+                        <div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div>
+                    </div>
+                </div>
+                <div class="probar">
+                    <div class="proheader">
+                        <h6>buliding</h6>
+                        <h6>86%</h6>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                        <div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------Divder-------------->
+    <div class="row">
+        <div class="col-lg-12 col-sm-12">
+            <div class="divder">
+                <h3> An innovative Company Working with the lstest technologies</h3>
+                <button>Get a Quote</button>
+            </div>
+        </div>
+    </div>
+    <!-------------our Client--------->
+    <div id="ourclient">
+        <div class="clientHeader">
+            <h3 class="text-center">Our Clients</h3>
+            <p>Duis aute irure dolor in reprehenderit volupte velit esse<br> cillum fugiat pariature occaecat cupidatat
+                proident culpa</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="left">
+                    <img src="imgs/cl1.jpg">
+                    <p>“It’s just brilliant. I will recommend Cobuild to everyone I know! I’m really glad to these guys
+                        got Cobuild out there.”</p><br>
+                    <strong>gene stvens</strong>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="left">
+                    <img src="imgs/cl2.jpg">
+                    <p>“It’s just brilliant. I will recommend Cobuild to everyone I know! I’m really glad to these guys
+                        got Cobuild out there.”</p><br>
+                    <strong>gene stvens</strong>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!--------------------Footer----------->
+    <div id="footer">
+        <div class="row">
+            <div class="col-lg-4 col-sm-1 col-first">
+                <i class="fa fa-house fa-2xl"></i>
+                <h4>Address</h4>
+                <p>220 Petersham town, Wardell
+                    street, Australia PA 6550.</p>
+
+            </div>
+            <div class="col-lg-4 col-sm-1 col-first">
+                <i class="fa fa-phone fa-2xl"></i>
+                <h4>phone</h4>
+                <p>Phone: (04) 491 570 110
+
+                    Fax: +04 642 021 332</p>
+
+            </div>
+            <div class="col-lg-4 col-sm-1 col-first">
+                <i class="fa fa-envelope fa-2xl"></i>
+                <h4>Email</h4>
+                <p>support@zytheme.com
+
+                    Twitter: @zytheme.</p>
+
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!----------Copyright-------->
+    <div id="copyright">
+        <div class="row">
+            <div class="col-lg-12 copy">
+                <p>Copyright © 2022 All Rights Reserved</p>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!---------------------------scripts-------->
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
